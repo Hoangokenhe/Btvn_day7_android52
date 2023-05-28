@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        ItemTouchHelper.Callback SwipeToDeleteCallback;
+
         ItemTouchHelper itemTouchhelper = new ItemTouchHelper(swipeToDeleteCallback);
         itemTouchhelper.attachToRecyclerView(recyclerView);
     }
